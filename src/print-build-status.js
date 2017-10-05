@@ -32,4 +32,6 @@ const describe = (slug, build) => {
   }
 };
 
-const duration = build => build.duration || (Date.now() - Date.parse(build.started_at));
+const duration = build => build.duration ||
+    (build.started_at && (Date.now() - Date.parse(build.started_at))) ||
+    'not yet started';
