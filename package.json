@@ -1,6 +1,6 @@
 {
   "name": "bil",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "CLI client for Travis CI",
   "main": "index.js",
   "scripts": {

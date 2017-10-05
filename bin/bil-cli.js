@@ -12,8 +12,6 @@ if(args.includes('--usage')) {
   usage(0);
 }
 
-console.log('args', args);
-
 const slug = determineSlug();
 
 if(args[0] === '-b' || args[0] === '--open-build') {
