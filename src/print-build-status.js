@@ -6,7 +6,7 @@ module.exports = (slug, status) => {
 `
 ${describe(slug, build)}
 Repo: https://github.com/${slug}
-Build: https://travis.org/${slug}/builds/${build.id}
+Build: https://travis-ci.org/${slug}/builds/${build.id}
 Status: ${build.state}
 Duration: ${duration(build)}
 `);
